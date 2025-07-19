@@ -1,17 +1,26 @@
 body{
-            background-color: rgb(77, 74, 230);
-            /*display: flex;*/
+            background-color: rgb(185, 184, 247);
+            /*display: block;
             /*justify-content: center; /* aligns horizontally */
             /*align-items: center;     /* aligns vertically */
-            height: 100vh;           /* makes sure it fills the full screen height */
-            margin-inline-start: 5rem;               /* removes default spacing */
+            /*height: 100vh;           /* makes sure it fills the full screen height */
+           /* margin-inline-start: 5rem;               /* removes default spacing */
 }
     .title{
-        color: pink;
-        font-style: oblique;
+        color: rgb(245, 237, 88);
+        font-style: italic;
+        font-size: 3rem;
         text-align: center;
         
     }
-    .discription{
-
+    .description{
+        color: rgb(12, 13, 12);
+    }
+    .dress{
+        margin-top: 2rem;
+        height:50rem;
+        border-radius: 2rem;
+        box-shadow: 12px 12px 2px 1px rgba(12, 12, 14, 0.2);
+        position: absolute;
+        right: 3rem; /* aligns content to the left */
     }
