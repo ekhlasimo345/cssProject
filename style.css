@@ -1,7 +1,17 @@
 body{
-            background-color: blueviolet;
-        }
-        .hello world{
-            color: pink;
-            font-style: oblique;
-        }
+            background-color: rgb(77, 74, 230);
+            /*display: flex;*/
+            /*justify-content: center; /* aligns horizontally */
+            /*align-items: center;     /* aligns vertically */
+            height: 100vh;           /* makes sure it fills the full screen height */
+            margin-inline-start: 5rem;               /* removes default spacing */
+}
+    .title{
+        color: pink;
+        font-style: oblique;
+        text-align: center;
+        
+    }
+    .discription{
+
+    }
